@@ -1,24 +1,26 @@
-
+.one
+{
+  height:35px;
+  border-bottom:2px solid black;
+  background-color: #5bba6f;
+}
+.bgimg
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=400");
+}
+.abouttitle
+{
+   justify-content:center;
+}
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0;
   }
-  .menu-toggle {
-    cursor: pointer;
-  }
-  
-  .menu {
-    display: none;
-    /* Additional styles for positioning and appearance */
-  }
-  
-  .menu.open {
-    display: block;
-    /* Additional styles for the expanded menu */
-  }
-  
   nav ul li {
     margin: 0 10px;
   }
