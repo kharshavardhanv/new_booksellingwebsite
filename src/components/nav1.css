@@ -1,0 +1,24 @@
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .menu-toggle {
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+    /* Additional styles for positioning and appearance */
+  }
+  
+  .menu.open {
+    display: block;
+    /* Additional styles for the expanded menu */
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }

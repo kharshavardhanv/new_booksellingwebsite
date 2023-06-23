@@ -1,10 +1,13 @@
 import React from 'react';
-
+import { ReactDOM } from 'react';
 function AboutPage() {
   return (
     <div>
-      <h1>About Page of BS</h1>
-      {/* Add content for the front page */}
+      <div class="col-4">
+         <span class="fa-bars headertophamburgur">
+            <h1>This includes About page</h1>
+         </span>
+      </div>
     </div>
   );
 }
